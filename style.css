@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e2d2d;
+    font-family: Arial, sans-serif;
+}
+
+.todo-container {
+    background-color: #817e7e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+    border: 5px solid rgb(10, 173, 248);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fffefe;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: 3px solid rgb(68, 189, 245);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #012ef7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1809a1;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid rgb(68, 189, 245);
+}
+
+li:nth-child(even) {
+    background-color: #f1f1f1;
+}
